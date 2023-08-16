@@ -1,12 +1,12 @@
-package headfirst.designpatterns.decorator._02_after;
+package headfirst.designpatterns.decorator._02_after.starbuzz;
 
-import headfirst.designpatterns.decorator._02_after.beverage.Beverage;
-import headfirst.designpatterns.decorator._02_after.beverage.DarkRoast;
-import headfirst.designpatterns.decorator._02_after.beverage.Espresso;
-import headfirst.designpatterns.decorator._02_after.beverage.HouseBlend;
-import headfirst.designpatterns.decorator._02_after.beverage.condiment.Mocha;
-import headfirst.designpatterns.decorator._02_after.beverage.condiment.Soy;
-import headfirst.designpatterns.decorator._02_after.beverage.condiment.Whip;
+import headfirst.designpatterns.decorator._02_after.starbuzz.beverage.Beverage;
+import headfirst.designpatterns.decorator._02_after.starbuzz.beverage.DarkRoast;
+import headfirst.designpatterns.decorator._02_after.starbuzz.beverage.Espresso;
+import headfirst.designpatterns.decorator._02_after.starbuzz.beverage.HouseBlend;
+import headfirst.designpatterns.decorator._02_after.starbuzz.beverage.condiment.Mocha;
+import headfirst.designpatterns.decorator._02_after.starbuzz.beverage.condiment.Soy;
+import headfirst.designpatterns.decorator._02_after.starbuzz.beverage.condiment.Whip;
 
 public class StarbuzzCoffee {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package headfirst.designpatterns.decorator._02_after.beverage.condiment;
+package headfirst.designpatterns.decorator._02_after.starbuzz.beverage.condiment;
 
-import headfirst.designpatterns.decorator._02_after.beverage.Beverage;
+import headfirst.designpatterns.decorator._02_after.starbuzz.beverage.Beverage;
 
 public class Mocha extends CondimentDecorator {
 
