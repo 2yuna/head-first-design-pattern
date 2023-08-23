@@ -2,6 +2,15 @@ package headfirst.designpatterns.command;
 
 public class Stereo {
 
+    String name;
+
+    public Stereo() {
+    }
+
+    public Stereo(String name) {
+        this.name = name;
+    }
+
     public void on() {
         System.out.println("on");
     }

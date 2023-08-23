@@ -1,20 +1,19 @@
 package headfirst.designpatterns.command;
 
-public class CeilingFanHighCommand implements Command {
+public class CeilingFanMediumCommand implements Command {
 
     CeilingFan ceilingFan;
 
     int prevSpeed;
 
-    public CeilingFanHighCommand(CeilingFan ceilingFan) {
+    public CeilingFanMediumCommand(CeilingFan ceilingFan) {
         this.ceilingFan = ceilingFan;
     }
-
 
     @Override
     public void execute() {
         prevSpeed = ceilingFan.getSpeed();
-        ceilingFan.high();
+        ceilingFan.medium();
     }
 
     @Override

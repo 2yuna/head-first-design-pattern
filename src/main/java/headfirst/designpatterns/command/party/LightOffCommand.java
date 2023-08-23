@@ -1,4 +1,4 @@
-package headfirst.designpatterns.command;
+package headfirst.designpatterns.command.party;
 
 public class LightOffCommand implements Command {
 
